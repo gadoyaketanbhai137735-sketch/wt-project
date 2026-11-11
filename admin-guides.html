@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Manage Safety Guides</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="admin-layout">
+    <aside class="sidebar">
+      <h2>DisasterReady</h2>
+      <p>Admin Panel</p>
+
+      <h4>Main</h4>
+      <ul>
+        <li><a href="admin-dashboard.html">Dashboard</a></li>
+        <li><a href="admin-disasters.html">Disasters</a></li>
+        <li><a href="admin-guides.html" class="active">Safety Guides</a></li>
+        <li><a href="admin-contacts.html">Emergency Contacts</a></li>
+      </ul>
+
+      <h4>Management</h4>
+      <ul>
+        <li><a href="admin-users.html">Users</a></li>
+        <li><a href="#">Messages</a></li>
+      </ul>
+
+      <h4>Settings</h4>
+      <ul>
+        <li><a href="#">Settings</a></li>
+        <li><a href="admin-login.html">Logout</a></li>
+      </ul>
+    </aside>
+    <div class="admin-main">
+      <div class="topbar">
+        <span>Menu</span>
+        <span class="admin-tag">Admin</span>
+      </div>
+      <div class="admin-content">
+        <h1>Manage Safety Guides</h1>
+
+        <form class="form-box">
+          <div class="form-group">
+            <label>Select Disaster</label>
+            <select>
+              <option>Earthquake</option>
+              <option>Flood</option>
+              <option>Fire</option>
+              <option>Cyclone</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Select Section</label>
+            <select>
+              <option>Before Disaster</option>
+              <option>During Disaster</option>
+              <option>After Disaster</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Title</label>
+            <input type="text" value="Secure Heavy Furniture">
+          </div>
+
+          <div class="form-group">
+            <label>Safety Instructions</label>
+            <textarea rows="4">Secure heavy furniture and prepare safe areas.</textarea>
+          </div>
+
+          <div class="form-group">
+            <label>Status</label>
+            <select>
+              <option>Active</option>
+              <option>Inactive</option>
+            </select>
+          </div>
+
+          <div class="form-actions">
+            <button type="button" class="btn">Save Changes</button>
+            <button type="button" class="btn btn-outline">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

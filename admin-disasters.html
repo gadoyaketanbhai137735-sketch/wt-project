@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Manage Disasters</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="admin-layout">
+    <aside class="sidebar">
+      <h2>DisasterReady</h2>
+      <p>Admin Panel</p>
+
+      <h4>Main</h4>
+      <ul>
+        <li><a href="admin-dashboard.html">Dashboard</a></li>
+        <li><a href="admin-disasters.html" class="active">Disasters</a></li>
+        <li><a href="admin-guides.html">Safety Guides</a></li>
+        <li><a href="admin-contacts.html">Emergency Contacts</a></li>
+      </ul>
+
+      <h4>Management</h4>
+      <ul>
+        <li><a href="admin-users.html">Users</a></li>
+        <li><a href="#">Messages</a></li>
+      </ul>
+
+      <h4>Settings</h4>
+      <ul>
+        <li><a href="#">Settings</a></li>
+        <li><a href="admin-login.html">Logout</a></li>
+      </ul>
+    </aside>
+    <div class="admin-main">
+      <div class="topbar">
+        <span>Menu</span>
+        <span class="admin-tag">Admin</span>
+      </div>
+      <div class="admin-content">
+        <div class="toolbar">
+          <h1>Manage Disasters</h1>
+          <a href="#" class="btn">+ Add New Disaster</a>
+        </div>
+        <input type="text" class="search-box" placeholder="Search disaster...">
+        <table>
+          <tr>
+            <th>Image</th>
+            <th>Disaster Name</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+          <tr>
+            <td><img src="images/earthquake.jpg" alt="Earthquake" width="60"></td>
+            <td>Earthquake</td>
+            <td>Earthquake safety guide</td>
+            <td>Active</td>
+            <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+          </tr>
+          <tr>
+            <td><img src="images/flood.jpg" alt="Flood" width="60"></td>
+            <td>Flood</td>
+            <td>Flood safety guide</td>
+            <td>Active</td>
+            <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+          </tr>
+          <tr>
+            <td><img src="images/fire.jpg" alt="Fire" width="60"></td>
+            <td>Fire</td>
+            <td>Fire safety guide</td>
+            <td>Active</td>
+            <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+          </tr>
+          <tr>
+            <td><img src="images/cyclone.jpg" alt="Cyclone" width="60"></td>
+            <td>Cyclone</td>
+            <td>Cyclone safety guide</td>
+            <td>Active</td>
+            <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

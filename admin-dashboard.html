@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="admin-layout">
+    <aside class="sidebar">
+      <h2>DisasterReady</h2>
+      <p>Admin Panel</p>
+
+      <h4>Main</h4>
+      <ul>
+        <li><a href="admin-dashboard.html" class="active">Dashboard</a></li>
+        <li><a href="admin-disasters.html">Disasters</a></li>
+        <li><a href="admin-guides.html">Safety Guides</a></li>
+        <li><a href="admin-contacts.html">Emergency Contacts</a></li>
+      </ul>
+
+      <h4>Management</h4>
+      <ul>
+        <li><a href="admin-users.html">Users</a></li>
+        <li><a href="#">Messages</a></li>
+      </ul>
+
+      <h4>Settings</h4>
+      <ul>
+        <li><a href="#">Settings</a></li>
+        <li><a href="admin-login.html">Logout</a></li>
+      </ul>
+    </aside>
+    <div class="admin-main">
+      <div class="topbar">
+        <span>Menu</span>
+        <span class="admin-tag">Admin</span>
+      </div>
+      <div class="admin-content">
+        <h1>Dashboard</h1>
+        <p class="welcome">Welcome back, Admin. Here is what is happening on DisasterReady.</p>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="number">4</div>
+            <div class="label">Total Disasters</div>
+          </div>
+          <div class="stat-card">
+            <div class="number">16</div>
+            <div class="label">Safety Guides</div>
+          </div>
+          <div class="stat-card">
+            <div class="number">6</div>
+            <div class="label">Emergency Contacts</div>
+          </div>
+          <div class="stat-card">
+            <div class="number">125</div>
+            <div class="label">Total Users</div>
+          </div>
+        </div>
+
+        <div class="quick-links">
+          <a href="admin-disasters.html">Manage Disasters</a>
+          <a href="admin-guides.html">Manage Safety Guides</a>
+          <a href="admin-contacts.html">Manage Emergency Contacts</a>
+          <a href="admin-users.html">Manage Users</a>
+        </div>
+
+        <h2>Recent Updates</h2>
+        <table>
+          <tr>
+            <th>Title</th>
+            <th>Type</th>
+            <th>Updated On</th>
+            <th>Action</th>
+          </tr>
+          <tr>
+            <td>Earthquake Safety Guide</td>
+            <td>Guide</td>
+            <td>20 Aug 2026</td>
+            <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+          </tr>
+          <tr>
+            <td>Flood Safety Guide</td>
+            <td>Guide</td>
+            <td>21 Aug 2026</td>
+            <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+          </tr>
+          <tr>
+            <td>Fire Safety Guide</td>
+            <td>Guide</td>
+            <td>22 Aug 2026</td>
+            <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+          </tr>
+          <tr>
+            <td>Cyclone Safety Guide</td>
+            <td>Guide</td>
+            <td>23 Aug 2026</td>
+            <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
